@@ -1,0 +1,458 @@
+/*GENERAL*/
+html{
+    margin: 0;
+    padding: 0;
+    background-color: #7b7966;
+
+}
+
+a{
+    color: #dfe7ea;
+ }
+
+@font-face {
+    font-family:'Kanit-Regular';
+    src: url(../assets/Kanit-Regular.ttf);
+}
+body{
+    margin: 0;
+    font-family: "Kanit-Regular";
+}
+
+/*HEADER*/
+
+header {
+    background-color: #7b7966;
+    display: flex;
+    justify-content: space-between;
+    color: #dfe7ea;
+    letter-spacing: 2px;
+}
+h1 {
+    font-size: 25px;
+    padding-left: 30px;
+}
+nav {
+    width: 600px;
+    display: flex;
+    align-items: center;
+   
+}
+
+ul {
+    width: 100%;
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+li a {
+    text-decoration: none;
+    color: #dfe7ea;
+}
+
+.tryItnow li a
+ {
+    border-width: 1px;
+    border-color:#dfe7ea;
+    padding: 10px 10px 10px 10px;
+    margin: 0 20px 0 20px;
+    border-radius: 5px;
+    border-style: solid;
+}
+.tryItnow li a:hover{
+    background-color: black;
+    color: #dfe7ea ;
+}
+/*MAIN-IMAGE*/
+
+#mainImage{
+   background: url(../assets/photodevwebpc.jpg) center;
+   background-size: 100% 100%;
+   height: 700px;
+   color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+}
+
+#mainImage h3{
+    margin: 0;
+    font-size: 35px;
+    
+}
+
+p {
+    font-size: small;
+    padding-top: 30px;
+    padding-bottom: 60px;
+ 
+    font-size: 20px;
+} 
+
+
+.containerImage{
+    width: 350px;
+    height: 410px;
+    padding: 105px 0 100px 35px;
+    line-height: 30px;
+    
+}
+
+a.button-2 {
+
+    color: black ;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #dfe7ea;
+    padding: 25px 55px;
+    border-radius: 5px;
+}
+
+a.button-2:hover {
+    background-color: #7b7966;
+    color: #dfe7ea ;
+}
+
+
+
+/* SERVICES*/
+
+#tryItNow{
+    padding-top: 30px;
+    padding-left: 50PX;
+    height: 750px;
+    /* display: flex;
+    justify-content: center; */
+    background-color:  #7b7966;
+
+}
+
+#tryItNow h2{
+
+    color: #dfe7ea;
+    font-weight: bold;
+    /* margin-left: 90px;
+    margin-bottom: 30px; */
+    margin: 0 0 30px 15px;
+}
+
+table, caption, th, td {
+
+border: 3px solid #dfe7ea;
+border-collapse: collapse;
+color: #dfe7ea;
+}
+
+caption, th, td {
+    
+padding: 40px;
+    
+}
+
+table, caption, th, td :first-child{
+
+    color: #dfe7ea ;
+       
+}
+table{
+    margin-right: 0;
+}
+
+.twotwo{
+    display: flex;
+    flex-direction: row;
+}
+.twotwo a{
+
+    margin-left: 200px;
+    margin-top: 180px;
+}
+
+.three{
+    display: flex;
+    flex-direction: row;
+    visibility: hidden;
+}
+.three a{
+
+    margin-left: 200px;
+    margin-top: 180px;
+}
+
+
+    /* FOOTER */
+
+
+footer{
+    margin-top: 50px;
+    height: 100px;
+    background-color: #7b7966;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #dfe7ea;
+    letter-spacing: 50px;
+}
+    
+    /* FORM */
+    
+#form{
+    
+    background-color: #7b7966;
+    color:#dfe7ea;
+    display: flex;
+    font-size: 20px;
+        
+    
+}
+    
+.formContact{
+    height: 150px;
+    width: 300px;
+}
+#form form{
+    
+        
+    height: 600px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    color: #dfe7ea;
+        
+}
+       
+#form form h3{
+    margin: 10px, 0, 0, 0;
+    color: #dfe7ea;
+}
+    
+.inForm{
+    margin-left: 25px;
+    height: 300px;
+ }
+    
+.name {
+    display: flex;
+    align-items: flex-end;
+}
+    
+.name input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #dfe7ea;
+    background-color: #7b7966;
+    margin-left: 60px;
+    width: 180px;
+}
+    
+.email input{
+    
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #dfe7ea;
+    background-color: #7b7966 ;
+    margin-left: 52px;
+    width: 180px;
+       
+ }
+    
+.message input{
+    
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #dfe7ea;
+    background-color: #7b7966;
+    margin-left: 23px;
+    width: 180px;
+}
+    
+   
+    
+.form-validation {
+    color: #7c6856;
+}
+   
+input.button-4{
+    color: #dfe7ea;
+    background-color:#7b7966 ;
+    border-radius: 0;
+    margin-top: 30px;
+    width: 150px ;
+    height: 30px;
+    
+
+}
+
+input.button-4:hover{
+    
+    background-color: #7b7966;
+    color: #dfe7ea;
+    
+}
+    
+#form2{
+    font-size: 20px;
+    background-color: #7b7966;
+    height: 100px;
+    color: #dfe7ea;
+}
+    
+#form2 label {
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-right: 10px;
+    background-color: #7b7966;
+        
+}
+    
+#form2 select {
+    
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px 15px;
+    border: 2px solid #dfe7ea;
+    background-color: #7b7966;
+    color: #dfe7ea;
+    
+}
+.inForm2{
+    
+    margin-left: 20px;
+    
+}
+select#typeSkin-select{
+
+    margin-left: 197px;
+}
+
+.formQ {
+
+    background-color:#7b7966;
+    font-size: 20px;
+}
+
+.question1{
+    margin-left: 20px;  
+}
+.question2{
+    margin-left: 20px;
+}
+.question3{
+    margin-left: 20px;
+}
+   
+input#answerqu1{
+
+    margin-left: 264px;
+    width: 300px;
+}
+
+input#answerqu2{
+
+    margin-left: 35px;
+    width: 300px;
+}
+
+input#message1{
+
+    margin-left: 170px;
+    width: 300px;
+}
+
+.form3-validation{
+
+    margin: 25px 0 0 20px ;
+}
+
+input.button-5{
+
+        
+    background-color: #7b7966;
+    color: #dfe7ea;
+    width: 150px;
+    height: 30px;
+}
+
+input.button-5:hover{
+
+        
+    background-color: #7b7966;
+    color:#dfe7ea;
+}
+
+/* Listing */
+
+#services{
+    
+    height: 400px; 
+}
+
+#services ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+ 
+
+#services h3{
+
+
+    margin: 40px 0 40px 25px;
+    font-size: 25px;
+}
+
+/* Listing2 */
+
+#listing2{
+    
+    height: 400px; 
+}
+
+#listing2 ol{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+ 
+ol{
+    font-size: 25px;
+}
+
+#listing2 h3{
+
+
+    margin: 40px 0 40px 25px;
+    font-size: 25px;
+}
+
+/* IFRAME */
+
+.iframe{
+
+    height: 500px;
+    width: 100%;
+}
+iframe {
+    border: 1px solid #dfe7ea;
+    width: 1000px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top:50px;
+}
+.iframe h3{
+   margin-left: 200px;
+   margin-top: 25px;
+   font-size: 30px;
+    color: #dfe7ea;
+}
+
